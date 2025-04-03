@@ -1,0 +1,28 @@
+.serch {
+    height: 40px;
+    width: 380px;
+    border-color: blue;
+    border-radius: none;
+   
+    display: flex;
+   
+}
+
+/* Light theme (default) */
+body {
+    background-color: white;
+    color:#1A1A1B;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Dark theme */
+  body.dark {
+    background-color: #000000;
+    color: white;
+  }
+  
